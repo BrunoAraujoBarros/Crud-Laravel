@@ -28,22 +28,22 @@
             <!-- Nome -->
             <div class="form-group">
                 <label for="nome">Nome</label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome" required>
             </div>
             <!-- Data de Nascimento -->
             <div class="form-group">
                 <label for="nascimento">Data de Nascimento</label>
-                <input type="date" class="form-control" name="nascimento" id="nascimento">
+                <input type="date" class="form-control" name="nascimento" id="nascimento" required>
             </div>
             <!-- Número -->
             <div class="form-group">
                 <label for="numero">Número</label>
-                <input type="tel" class="form-control" name="numero" id="numero" placeholder="Digite seu número">
+                <input type="tel" class="form-control" name="numero" id="numero" placeholder="Digite seu número" required>
             </div>
             <!-- Observações -->
             <div class="form-group" style="padding-bottom: 10px">
                 <label for="obs">Observações</label>
-                <textarea class="form-control" name="obs" id="obs" rows="3" placeholder="Digite suas observações"></textarea>
+                <textarea class="form-control" name="obs" id="obs" rows="3" placeholder="Digite suas observações" required></textarea>
             </div>
             <!-- Botão de Enviar -->
             <button type="submit" class="btn btn-primary">Enviar</button>

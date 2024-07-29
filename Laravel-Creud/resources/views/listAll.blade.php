@@ -11,7 +11,8 @@
                 <th>Data de Nascimento</th>
                 <th>Número</th>
                 <th>Observações</th>
-                <th>Opções</th>
+                <th></th>
+                <th></th>
                 
             </tr>
         </thead>
